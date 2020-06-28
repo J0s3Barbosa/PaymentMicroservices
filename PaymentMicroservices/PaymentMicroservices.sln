@@ -1,0 +1,87 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{558168EA-6E50-4CF1-BF6D-0F24F10896EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1- Domain", "1- Domain", "{978C1D49-8058-4084-83BD-920446DCAEBA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Infraestrutura", "2 - Infraestrutura", "{31E51E1E-0C6D-4BA1-A64F-4A4433C7503E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Aplicacao", "3 - Aplicacao", "{F290AFDC-E198-485A-839C-7E4A85228792}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - CrossCutting", "4 - CrossCutting", "{640FDAE5-C98E-4836-A9D7-0AE87EE8074B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Testes", "5 - Testes", "{BA75774E-8B3B-4CB6-8C8E-8D2A155945C6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMicroservices.Domain", "PaymentMicroservices.Domain\PaymentMicroservices.Domain.csproj", "{F196FA06-B7B0-4D7C-BED0-48F9841D44C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMicroservices.Infra", "PaymentMicroservices.Infra\PaymentMicroservices.Infra.csproj", "{713E3206-640F-4E8B-9B3F-09B8D4214638}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMicroservices.Application", "PaymentMicroservices.Application\PaymentMicroservices.Application.csproj", "{A26FF145-FB58-47E6-BFD2-B56EE3F57A12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMicroservices.CrossCutting", "PaymentMicroservices.CrossCutting\PaymentMicroservices.CrossCutting.csproj", "{71ABBF90-585C-4819-9BC7-39EA4C1907C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMicroservices.Api", "PaymentMicroservices.Api\PaymentMicroservices.Api.csproj", "{51B0B8E8-708E-4A29-9BCB-EB33474794C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PaymentMicroservices.UnitTest", "PaymentMicroservices.UnitTest\PaymentMicroservices.UnitTest.csproj", "{18614C49-56AD-423D-BC2F-05AF142E6F8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E19EA645-A8EA-4F14-AAB8-BA966E1B54EF}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentMicroservices.IntegrationTest", "PaymentMicroservices.IntegrationTest\PaymentMicroservices.IntegrationTest.csproj", "{2A0F82C3-D571-437E-9EAE-B19489E561DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F196FA06-B7B0-4D7C-BED0-48F9841D44C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F196FA06-B7B0-4D7C-BED0-48F9841D44C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F196FA06-B7B0-4D7C-BED0-48F9841D44C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F196FA06-B7B0-4D7C-BED0-48F9841D44C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713E3206-640F-4E8B-9B3F-09B8D4214638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713E3206-640F-4E8B-9B3F-09B8D4214638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713E3206-640F-4E8B-9B3F-09B8D4214638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713E3206-640F-4E8B-9B3F-09B8D4214638}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26FF145-FB58-47E6-BFD2-B56EE3F57A12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26FF145-FB58-47E6-BFD2-B56EE3F57A12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26FF145-FB58-47E6-BFD2-B56EE3F57A12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26FF145-FB58-47E6-BFD2-B56EE3F57A12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71ABBF90-585C-4819-9BC7-39EA4C1907C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71ABBF90-585C-4819-9BC7-39EA4C1907C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71ABBF90-585C-4819-9BC7-39EA4C1907C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71ABBF90-585C-4819-9BC7-39EA4C1907C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B0B8E8-708E-4A29-9BCB-EB33474794C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B0B8E8-708E-4A29-9BCB-EB33474794C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B0B8E8-708E-4A29-9BCB-EB33474794C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B0B8E8-708E-4A29-9BCB-EB33474794C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18614C49-56AD-423D-BC2F-05AF142E6F8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18614C49-56AD-423D-BC2F-05AF142E6F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18614C49-56AD-423D-BC2F-05AF142E6F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18614C49-56AD-423D-BC2F-05AF142E6F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0F82C3-D571-437E-9EAE-B19489E561DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0F82C3-D571-437E-9EAE-B19489E561DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0F82C3-D571-437E-9EAE-B19489E561DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0F82C3-D571-437E-9EAE-B19489E561DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F196FA06-B7B0-4D7C-BED0-48F9841D44C7} = {978C1D49-8058-4084-83BD-920446DCAEBA}
+		{713E3206-640F-4E8B-9B3F-09B8D4214638} = {31E51E1E-0C6D-4BA1-A64F-4A4433C7503E}
+		{A26FF145-FB58-47E6-BFD2-B56EE3F57A12} = {F290AFDC-E198-485A-839C-7E4A85228792}
+		{71ABBF90-585C-4819-9BC7-39EA4C1907C2} = {640FDAE5-C98E-4836-A9D7-0AE87EE8074B}
+		{51B0B8E8-708E-4A29-9BCB-EB33474794C0} = {558168EA-6E50-4CF1-BF6D-0F24F10896EC}
+		{18614C49-56AD-423D-BC2F-05AF142E6F8C} = {BA75774E-8B3B-4CB6-8C8E-8D2A155945C6}
+		{2A0F82C3-D571-437E-9EAE-B19489E561DC} = {BA75774E-8B3B-4CB6-8C8E-8D2A155945C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F662415F-5804-430E-B114-F42ED0023F1B}
+	EndGlobalSection
+EndGlobal
